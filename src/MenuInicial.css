@@ -1,0 +1,45 @@
+/* Underheader com fundo suave */
+.underheader {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Grid para os cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Card estilizado branco */
+.card-menu {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    height: auto;
+    border-bottom: 5px solid #000000; /* ADICIONA a borda inferior */
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-top: 5px solid #000000;
+}
+
+.card-menu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.card-menu img {
+    width: 100%;
+    height: 150px; /* ajuste conforme necessário */
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 5px solid #000000; /* ADICIONA a borda inferior */
+}
